@@ -1,0 +1,18 @@
+[package]
+name = "pw"
+version = "0.1.0"
+edition = "2024"
+description = "A fast, secure CLI password generator"
+license = "MIT"
+repository = "https://github.com/r9r-dev/pw"
+
+[dependencies]
+clap = { version = "4", features = ["derive", "cargo"] }
+rand = "0.9"
+arboard = "3"
+zxcvbn = "3"
+colored = "3"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
