@@ -99,7 +99,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          repository: r9r-dev/homebrew-pw
+          repository: r9r-dev/homebrew-tap
           token: ${{ secrets.TAP_TOKEN }}
           path: homebrew-pw
 
